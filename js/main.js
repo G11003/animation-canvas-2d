@@ -55,7 +55,8 @@ class Circle {
 
 let arrayCircle = [];
 const speed = 8; // Velocidad
-for (let i = 0; i < 15; i++) {
+let n = Math.floor(Math.random() * 20) + 1;
+for (let i = 0; i < n; i++) {
     let randomX = Math.random() * (window_width - 100) + 50;
     let randomY = Math.random() * (window_height - 100) + 50;
     let randomRadius = Math.random() * (100 - 18) + 18;
